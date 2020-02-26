@@ -4,11 +4,13 @@ Project's main class App. And in this class's main method first Load.loader() fu
 In loader() function default data is loaded;
 
 Events;
+
     Event{, id='33', name='Family Man', airDates=[2019-07-01T11:30, 2019-07-02T11:30, 2019-07-03T11:30, 2019-07-04T11:30, 2019-07-05T11:30], basePrice=10.0, rating=LOW, auditoriums={2019-07-01T11:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-02T11:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-03T11:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-04T11:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-05T11:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}}},
     Event{, id='22', name='Love Story', airDates=[2019-07-01T15:30, 2019-07-02T15:30, 2019-07-03T15:30, 2019-07-04T15:30, 2019-07-05T15:30], basePrice=12.0, rating=MID, auditoriums={2019-07-01T15:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-02T15:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-03T15:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-04T15:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-05T15:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}}},
     Event{, id='11', name='Avengers', airDates=[2019-07-01T19:30, 2019-07-02T19:30, 2019-07-03T19:30, 2019-07-04T19:30, 2019-07-05T19:30], basePrice=15.0, rating=HIGH, auditoriums={2019-07-01T19:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-02T19:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-03T19:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-04T19:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-05T19:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}}}
 
 Users;
+
     User{id='4', firstName='Hans', lastName='Gunter', email='hans@hans.com', tickets=[
             Ticket{id=4442, user=Hans, event=Love Story, seat=11},
             Ticket{id=4443, user=Hans, event=Family Man, seat=22},
@@ -28,6 +30,7 @@ Users;
             Ticket{id=2223, user=Mike, event=Love Story, seat=56}], birthday=1990-05-02}
 
 Tickets;
+
     Ticket{id=2221, user=Mike, event=Avengers, seat=55},
     Ticket{id=2224, user=Mike, event=Family Man, seat=65},
     Ticket{id=1111, user=James, event=Avengers, seat=34},
@@ -43,6 +46,7 @@ Tickets;
     Ticket{id=3331, user=Tom, event=Avengers, seat=77}
 
 Auditoriums;(from properties file)
+
     name=Mercury
     numberOfSeats=200
     vipSeats=55,56,57,58,65,66,67,68,75,76,77,78
