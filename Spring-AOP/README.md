@@ -4,7 +4,7 @@
 Project's main class App. And in this class's main method first Load.loader() function is called.
 In loader() function default data is loaded;
 
-Events;
+`Events;
     Event{, id='33', name='Family Man', airDates=[2019-07-01T11:30, 2019-07-02T11:30, 2019-07-03T11:30, 2019-07-04T11:30, 2019-07-05T11:30], basePrice=10.0, rating=LOW, auditoriums={2019-07-01T11:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-02T11:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-03T11:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-04T11:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-05T11:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}}},
     Event{, id='22', name='Love Story', airDates=[2019-07-01T15:30, 2019-07-02T15:30, 2019-07-03T15:30, 2019-07-04T15:30, 2019-07-05T15:30], basePrice=12.0, rating=MID, auditoriums={2019-07-01T15:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-02T15:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-03T15:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-04T15:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-05T15:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}}},
     Event{, id='11', name='Avengers', airDates=[2019-07-01T19:30, 2019-07-02T19:30, 2019-07-03T19:30, 2019-07-04T19:30, 2019-07-05T19:30], basePrice=15.0, rating=HIGH, auditoriums={2019-07-01T19:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-02T19:30=Auditorium{name='Mercury', numberOfSeats=200, vipSeats=[65, 66, 67, 68, 55, 56, 57, 58, 75, 76, 77, 78]}, 2019-07-03T19:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-04T19:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}, 2019-07-05T19:30=Auditorium{name='Mars', numberOfSeats=300, vipSeats=[65, 66, 67, 68, 75, 44, 76, 77, 78, 55, 56, 88, 57, 58, 90, 91]}}}
@@ -50,7 +50,7 @@ Auditoriums;(from properties file)
 
     name2=Mars
     numberOfSeats2=300
-    vipSeats2=44,55,56,57,58,65,66,67,68,75,76,77,78,88,90,91
+    vipSeats2=44,55,56,57,58,65,66,67,68,75,76,77,78,88,90,91`
 
 
 Menu Usage:
