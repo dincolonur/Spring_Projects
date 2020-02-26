@@ -1,13 +1,15 @@
 ## Spring-Simple-DB Project
 
-Project's main class App. User, Event, Ticket information loaded to derby embedded database.
+Project's main class App. User, Event, Ticket information loaded to derby embedded database:
 
-create_tables.sql
-insert_tables.sql
+    create_tables.sql
+    insert_tables.sql
+
 
 run as initial setup.
 
 Auditoriums;(from properties file)
+
     name=Mercury
     numberOfSeats=200
     vipSeats=55,56,57,58,65,66,67,68,75,76,77,78
@@ -54,4 +56,4 @@ Menu Usage:
 
 Best Regards
 
-Onur Dincol
+OD
